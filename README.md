@@ -42,20 +42,20 @@ The goal is not to finish learning. It is to learn enough that all future learni
 #### 1A: Linear Algebra Foundations (~15 hrs)
 
 **Do:**
-- [ ] Watch 3Blue1Brown's *Essence of Linear Algebra* (full series). Take notes on geometric intuitions, not formulas.
-- [ ] After each video, summarize the key insight in your own words to an LLM and ask for critical feedback using an anti-sycophancy prompt.
+- [X] Watch 3Blue1Brown's *Essence of Linear Algebra* (full series). Take notes on geometric intuitions, not formulas.
+- [X] After each video, summarize the key insight in your own words to an LLM and ask for critical feedback using an anti-sycophancy prompt.
 
 **Prove you understand — complete all of the following:**
 
 1. **Written explanations** (submit to an LLM for harsh critique):
-   - [ ] What does it mean geometrically to multiply a vector by a matrix? What is a basis change and why does it matter for interpretability?
-   - [ ] Explain SVD: what the three matrices represent, why it reveals the "true structure" of a linear map, and how rank relates to the number of non-zero singular values.
-   - [ ] Explain eigenvalues/eigenvectors. What makes an orthonormal basis special?
+   - [X] What does it mean geometrically to multiply a vector by a matrix? What is a basis change and why does it matter for interpretability?
+   - [X] Explain SVD: what the three matrices represent, why it reveals the "true structure" of a linear map, and how rank relates to the number of non-zero singular values.
+   - [X] Explain eigenvalues/eigenvectors. What makes an orthonormal basis special?
    - [ ] How does a low-rank matrix differ from a full-rank matrix? Why does this matter when analyzing weight matrices inside transformers?
 
-2. **Coding exercises** (NumPy only, no library SVD/eigendecomp — implement the power iteration method yourself for eigenvalues):
-   - [ ] Implement matrix-vector multiplication from scratch
-   - [ ] Implement a change-of-basis operation
+2. **Coding exercises** (np only, no library SVD/eigendecomp — implement the power iteration method yourself for eigenvalues):
+   - [X] Implement matrix-vector multiplication from scratch
+   - [X] Implement a change-of-basis operation
    - [ ] Compute rank via row reduction
    - [ ] Implement power iteration to find the dominant eigenvector of a matrix
 
